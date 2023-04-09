@@ -1,0 +1,132 @@
+<h1>Ice Cream Menu</h1>
+
+<div class="button">
+  <button (click)="showOrganics()">Organic</button>
+  <button (click)="showNonOrganics()" >Non-Organic</button>
+</div>
+
+<div id="organic" *ngIf="organic==true">
+<div>
+  <h3>**Premium Organic Flavors**</h3>
+  <p>Availability subject to change</p>
+</div>
+
+<div>
+  <h3>Fruit Popsicles</h3>
+  <h3>Dairy Free</h3>
+  <h3>Customization Available</h3>
+  <ul>
+    <li>Strawberry</li>
+    <li>Mango</li>
+    <li>Peach</li>
+  </ul>
+</div>
+
+<div>
+  <h3>Citrus Push Ups</h3>
+  <h3>Dairy Free</h3>
+  <ul>
+    <li>Lemonade</li>
+    <li>Orangeage</li>
+    <li>Strawberry Lemonade</li>
+  </ul>
+</div>
+
+<div>
+  <h3>Ice Cream Bars</h3>
+  <h3>Customization Available</h3>
+  <ul>
+    <li>Chocolate Dipped Almond - Vanilla</li>
+    <li>Chocolate Dipped - Chocolate</li>
+  </ul>
+</div>
+
+<div>
+  <h3>Alden's Ice Cream Sandwiches</h3>
+  <ul>
+    <li>Vanilla Ice Cream Sandwiches</li>
+  </ul>
+</div>
+</div>
+
+<div id="non-organic" *ngIf="nonOrganic==true">
+  <div>
+    <h3>**Premium Non-Organic Flavors**</h3>
+    <p>Availability subject to change</p>
+  </div>
+
+  <div>
+    <h3>Good Humor Ice Cream Cones</h3>
+    <ul>
+      <li>Giant Cookies and Cream Cone</li>
+      <li>Giant Vanilla Chocolate</li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Good Humor Ice Cream Bars</h3>
+    <ul>
+      <li>Reeses Ice Cream Cups</li>
+      <li>Snickers King Size Bar</li>
+      <li>Twix King Size Bar</li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Ice Cream Sandwiches</h3>
+    <ul>
+      <li>M&M Ice Cream Cookie Sandwich</li>
+      <li>M&M Mint Cookie Sandwich</li>
+    </ul>
+  </div>
+</div>
+
+<div id="non-organic-classic" *ngIf="nonOrganic==true">
+  <div>
+    <h3>**Classic Non-Organic Flavors**</h3>
+    <p>Availability subject to change</p>
+  </div>
+
+  <div>
+    <h3>Good Humor Ice Cream Sandwiches</h3>
+    <ul>
+      <li>Giant Vanilla Sandwich</li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Rich's Ice Cream Bars</h3>
+    <ul>
+      <li>Strawberry Shortcake</li>
+      <li>Chocolate Crunch Cake</li>
+      <li>Crumble Cookie Bar</li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Wonder Snow Cones</h3>
+    <ul>
+      <li>Tropical Snow Cone</li>
+      <li>Bubble Gum Snow Cone</li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Popsicles and Push Up Pops</h3>
+    <ul>
+      <li>Popsicle Rainbow Pop</li>
+      <li>Popsicle Popup Rainbow Sherbet</li>
+      <li>Blue Bunny Bomb PopRed White and Blue Original</li>
+      <li>Blue Bunny Bomb Pop Jolly Rancher</li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Jelly Belly Snow Cones</h3>
+    <ul>
+      <li>Berry Snow Cone</li>
+    </ul>
+  </div>
+
+</div>
+

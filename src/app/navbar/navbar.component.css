@@ -1,0 +1,38 @@
+div{
+  display: flex;
+  justify-content: center;
+}
+
+table, tr, td{
+  /* border-style: solid; */
+  /* margin: 25px 50px 25px 50px; */
+    /* top, right, bottom, left */
+  font-family: fantasy, papyrus;
+};
+
+table{
+  border-collapse: separate;
+}
+
+td{
+  /* width: 25%; */
+  text-align: center;
+  /* padding: 3rem; */
+}
+
+h1{
+  text-align: center;
+  font-size: medium;
+}
+
+/* .blink{
+  animation: blinking 1s infinite;
+} */
+.logo-wrapper{
+  width: 100vw;
+}
+
+.logo{
+  width: 100%;
+  text-align: center;
+}

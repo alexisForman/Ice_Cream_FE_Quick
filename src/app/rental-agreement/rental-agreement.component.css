@@ -1,0 +1,44 @@
+div{
+  margin-right: 10%;
+  margin-left: 10%;
+  /* margin-top: 2%; */
+  margin-bottom: 2%;
+  border: 3px solid black;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+h2{
+  font-family: sans-serif;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+label{
+  padding-left: 3%;
+}
+
+input{
+  padding-right: 2%;
+}
+
+h3{
+  padding-left: 1%;
+  padding-right: 1%;
+  text-decoration: underline;
+  font-family: sans-serif;
+}
+
+p{
+  padding-left: 1%;
+  padding-right: 1%;
+  font-family: sans-serif;
+}
+
+button{
+  margin-left: 40%;
+  margin-right: 40%;
+}

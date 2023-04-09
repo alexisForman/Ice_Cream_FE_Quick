@@ -1,0 +1,43 @@
+h1{
+  text-align: center;
+  font-family: fantasy;
+  font-weight: bold;
+}
+
+button{
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+}
+
+h3{
+  font-size: medium;
+  font-family: fantasy;
+  text-align: center;
+}
+
+li{
+  font-size: small;
+  font-family: fantasy;
+}
+
+p{
+  font-size: smaller;
+  font-family: fantasy;
+  text-align: center;
+}
+
+#organic, #non-organic, #non-organic-classic{
+  width: 90vw;
+  padding: 2rem;
+  margin-left: 5vw;
+  margin-right: 5vw;
+
+}
+
+

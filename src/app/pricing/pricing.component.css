@@ -1,0 +1,39 @@
+div{
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+}
+
+table{
+  width: 85%;
+}
+
+table, tr, td{
+  /* border-collapse: separate; */
+  /* border-spacing: 0 1rem;
+  margin: 2vw 2vh 2vw 2vh; */
+  border-style: solid pink;
+  background-color: pink;
+}
+
+td{
+  text-align: center;
+  background-color: rgb(247, 213, 218);
+  border: 3px solid rgb(245, 165, 178);
+  padding: 5px;
+  font-size: medium;
+}
+
+th{
+  text-align: center;
+  background-color: rgb(247, 213, 218);
+  border: 3px solid rgb(245, 165, 178);
+  font-size: large;
+}
+
+p{
+  text-align: center;
+  font-family: fantasy;
+  color: blue;
+}
+

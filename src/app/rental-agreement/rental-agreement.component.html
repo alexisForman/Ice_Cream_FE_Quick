@@ -1,0 +1,84 @@
+  <form [formGroup]="rentalForm" (ngSubmit)="onSubmit()">
+    <h2>Renters Information</h2>
+    <div>
+      <label for="rentersName">Renter's Name</label>
+      <input id="rentersName" type="text" formControlName="Renters_Name">
+
+      <label for="phoneNumber">Phone Number</label>
+      <input id="phoneNumber" type="text" formControlName="Phone_Number">
+
+      <label for="emailAddress">Email Address</label>
+      <input id="emailAddress" type="email" formControlName="Email_Address">
+    </div>
+
+    <h2>Event Details</h2>
+    <div class="grid-container">
+      <label for="eventDate" class="grid-item">Event Date</label>
+      <input class="grid-item" id="eventDate" type="date" formControlName="Event_Date">
+
+      <label for="dropOffLocation" class="grid-item">Drop Off Location</label>
+      <input id="dropOffLocation" class="grid-item" type="text" formControlName="Drop_Off_Location">
+
+      <label for="dropOffTime" class="grid-item">Drop Off Time</label>
+      <input class="grid-item" id="dropOffTime" type="time" formControlName="Drop_Off_Time">
+
+      <label for="pickUpTime" class="grid-item">Pick Up Time</label>
+      <input class="grid-item" id="pickUpTime" type="time" formControlName="Pick_Up_Time">
+    </div>
+
+    <h2>Package Details</h2>
+    <div class="grid-container">
+      <label for="package" class="grid-item">Package</label>
+      <input id="package" type="text" formControlName="Package" class="grid-item">
+
+      <label for="IceCreamSelection" class="grid-item">Ice Cream Selection(s)</label>
+      <input id="IceCreamSelection" type="text" formControlName="Ice_Cream_Selection" class="grid-item">
+
+      <label for="additionalIceCream" class="grid-item">Additional Ice Cream Selection(s)</label>
+      <input id="AdditionalIceCreamSelection" type="text" formControlName="Additional_Ice_Cream_Selection" class="grid-item">
+
+      <label for="neonSign" class="grid-item">Neon Sign</label>
+      <input id="neonSign" type="text" formControlName="Neon_Sign" class="grid-item">
+    </div>
+
+    <div>
+      <h3>Booking</h3>
+      <p>Renter must book 30 days in advance, provide a $100 deposit at booking and pay the remaining balance before the event.
+        If booked less than 14 business days in advance, we will require the total price or your event package to be paid in full at the time of booking.
+      </p>
+
+      <h3>Cancellation/Reschedule Policy</h3>
+      <p>If you cancel an event rental less than seven business days before your scheduled event date, your $100 deposit is forfeited and will not be returned to you.
+        If you need to reschedule your event rental due to weather (ie. heavy snow or heavy rain), you will be charged a $50 ice cream restocking fee,
+        and you will be able to reschedule your event to a new date and time.
+        All requests to reschedule will be handled on a case by case basis.
+        All rescheduled events will incur a $50 ice cream restocking fee.
+      </p>
+
+      <h3>Terms of Use</h3>
+      <p>Renter is responsible for any damages that occur during time of rental.
+        If damages occur, you forfeit your $100 deposit and it will not be returned to you.
+        For extensive damages you will be charged two times your total package cost.
+      </p>
+
+      <p>Self service users:
+        The ice cream cart packages include dry ice which can cause injury to humans and animals if not handled correctly.
+        You agree to have a designated server if you opt not to have us serve at your event.
+        DO NOT TOUCH OR CONSUME DRY ICE!
+        KEEP DRY ICE OUT OF CHILDREN'S REACH!
+        You, the renter are liable for any damages or injuries caused from dry ice.
+        Ice Cream Cart Co LLC is not responsible for any damages or injuries.
+      </p>
+
+      <h3>Pick Up and Drop Off</h3>
+      <p>You must have a place prepared for the cart to be placed by the time of the scheduled drop off.
+        Delivery is included in your package cost if your event is located in Camas, Washougal or Vancouver, WA,
+        There is a $50 delivery fee for the surrounding areas.
+        At pick up or drop off, the cart must be empty (with the exception of any remaining dry ice).
+        If ice cream is left in the cart at pick up or drop off, you, the renter, will be charged a $50 ice cream restocking fee.
+      </p>
+    </div>
+
+    <button type="submit">Submit Your Reservation Request</button>
+  </form>
+
