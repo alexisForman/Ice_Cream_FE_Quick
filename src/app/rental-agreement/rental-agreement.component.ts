@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 
@@ -9,7 +10,7 @@ import { FormControl, FormGroup } from '@angular/forms';
 export class RentalAgreementComponent implements OnInit {
 
 
-  constructor() { }
+  constructor(private http:HttpClient) { }
 
   rentalForm = new FormGroup({
     Renters_Name: new FormControl(),
@@ -30,7 +31,9 @@ export class RentalAgreementComponent implements OnInit {
   }
 
   onSubmit()  {
-
+    const customerRequest = this.rentalForm.value;
+    this.http.post("", customerRequest)
+    console.log(this.rentalForm.value);
   }
 
 }
