@@ -1,4 +1,22 @@
+h1, u{
+  font-family: fantasy;
+  color: rgb(217, 127, 142);
 
+}
+
+div{
+  border-top: 2px solid  rgb(217, 127, 142);
+  width: 100%;
+}
+
+p, h1{
+  text-align: center;
+  font-family: fantasy;
+}
+
+u{
+  font-size: larger;
+}
 
 
 
