@@ -12,7 +12,7 @@ button{
 
 .button{
   display: flex;
-  justify-content: left-center;
+  justify-content: center;
 }
 
 h3{
@@ -34,9 +34,9 @@ p{
 
 #organic, #non-organic, #non-organic-classic{
   width: 90vw;
-  padding: 4rem;
-  margin-left: 10vw;
-  margin-right: 1-vw;
+  padding: 2rem;
+  margin-left: 5vw;
+  margin-right: 5vw;
 
 }
 
